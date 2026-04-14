@@ -15,7 +15,7 @@ The DMG2040-Pro PCB uses the popular Waveshare RP2040-zero MCU, and allows the u
 The DMG2040-Lite is a stripped down, more basic version of the PCB, with the primary intention being to use the popular Seeed Studio Xiao microcontrollers- specifically the Seeed Xiao nRF52840. 
 The nRF52840 is meant to be used with the lovely slimbox-bt firmware by Jfedor, found here- https://github.com/jfedor2/slimbox-bt. The Seeed Xiao RP2040 will also fit and function perfectly on this board, and if used with the GP2040-CE firmware will simply require manual configuration of the GPIO to assign the buttons to their proper functions. Additional screw mounting holes have been added for custom shell applications. (RELEASE DATE TBD)
 
-![DMG2040-Lite PCB multilayer]( DMG2040-lite-all-03162026.png)
+![DMG2040-Lite PCB multilayer](DMG2040LITEMULTI.png)
 
 ## Hardware setup
 Coming soon!
