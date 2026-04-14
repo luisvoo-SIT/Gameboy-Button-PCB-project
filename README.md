@@ -8,7 +8,7 @@ There are two (2) variants of the board for the original Game Boy- the "DMG-01" 
 ### DMG2040-Pro
 The DMG2040-Pro PCB uses the popular Waveshare RP2040-zero MCU, and allows the unused GPIO pins to be accessed by standard 0.1" pitch (2.54mm) pin headers. I2C and USB could be easily accessed by GPIO 28/29 (USB) and GPIO 8/9 (I2C). This board is meant to be a versatile and potentially feature rich way to make a full featured controller that will work on many different platforms- depending on your choice of firmware, of course. Additional screw mounting holes have been added for custom shell applications. (MOST CURRENT RELEASE LIVE AS OF 04/14/2026)
 
-![DMG2040-Pro PCB design multilayer](DMG2040-pro-all-03162026.png)
+![DMG2040-Pro PCB design multilayer](DMG2040PROMULTI.png)
 
 
 ### DMG2040-Lite
