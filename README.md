@@ -5,6 +5,8 @@ This project aims to be a repository for various PCBs intended to allow a user t
 These PCBs support a rich set of features provided mostly in part of the wonderful GP2040-CE project [which can be found here](https://github.com/OpenStickCommunity/GP2040-CE), with Bluetooth functionality provided by @jfedor2's Slimbox-bt firmware [which can be found here.](https://github.com/jfedor2/slimbox-bt)
 There are two (2) variants of the board for the original Game Boy- the "DMG-01" model. I have designed both to be a bolt-in replacement for the original button/screen PCB, with some trimming of the battery compartment being required to allow the microcontroller board and USB-C port to clear. 
 
+All PCBs that have added footprints for tactile switches use the Alps SKRRAAE010 (D-pad, A, B buttons) and SKRBAAE010 (start, select) part numbers. Tuning these to function well will be addressed in a later update to the design documentation, but will generally entail adding spacers or extra material to the bottom of the buttons.
+
 ### DMG2040-Pro
 The DMG2040-Pro PCB uses the popular Waveshare RP2040-zero MCU, and allows the unused GPIO pins to be accessed by standard 0.1" pitch (2.54mm) pin headers. I2C and USB could be easily accessed by GPIO 28/29 (USB) and GPIO 8/9 (I2C). This board is meant to be a versatile and potentially feature rich way to make a full featured controller that will work on many different platforms- depending on your choice of firmware, of course. Additional screw mounting holes have been added for custom shell applications. (MOST CURRENT RELEASE LIVE AS OF 04/14/2026)
 
