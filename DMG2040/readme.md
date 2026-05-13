@@ -26,3 +26,23 @@ These PCBs also feature added footprints for tactile switches to use the Alps SK
 -The DMG2040-Pro will work with the standard current release GP2040-CE firmware file without additional configuration for the buttons, but will require configuration via the Web Configurator utility to assign any additional function to the GPIO pins, such as I2C, USB passthrough, or additional buttons. As of this writing there is also a specific firmware build for the DMG2040 that inlcudes a custom layout for the OLED screen- `GP2040-CE_0.7.12_DMG2040-PRO.uf2` The shoulder and home buttons are by default assigned as TSW3= `B3`, TSW4= as `B4` and TSW9= `A1` using GP2040-CE nomenclature. Standard button assignment on the PCB is B1= `A`, B2= `B`, S1= `Select`, and s2= `Start`. Please keep in mind using input mode `Nintendo Switch` will swap the functions for B1/B2 and may require a custom profile to prevent this if your use case has you swapping between consoles/devices.
 
 -The DMG2040-Lite when using the Seeed Xiao nRF52840 Microcontroller will work with the Slimbox-BT `slimbox-bt-xiao_nrf52840.uf2` firmware file without additional configuration for the buttons. The shoulder and home buttons are by default assigned as TSW3- `West`, TSW4 as `North` and TSW9 ``Home using Jfedor's slimbox-bt nomenclature. If you use the Seeed Xiao RP2040 Microcontroller with the Gp2040-CE firmware you will need to maually configure the GPIO pin assignments to line up with the chosen button configuration.
+
+## How to order a board
+The information below are mostly the important options to take note of :
+
+Base Material = FR-4
+Layers = 2
+Dimensions = (should auto-populate) 81.28 mm x 45.72 mm
+Product Type = Industrial/Consumer electronics
+Different Design = 1
+Delivery Format = Single PCB 
+PCB Thickness = 1.2
+Surface Finish = ENIG
+Gold thickness = 1 U"
+Outer Copper Weight = 1oz
+Via Covering = Tented
+Board Outline Tolerance = +/- 0.2mm (Regular)
+Flying Probe Test = Fully Test
+Gold Fingers = No
+Castellated Holes = No
+No advanced options
